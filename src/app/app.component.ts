@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Primeira Aplicacao';
 }
+
+/*
+template: `
+      <h1>Teste</h1>
+      <alert type="success">{{title}}</alert>
+      <app-formulario></app-formulario>
+
+    `,
+    */
